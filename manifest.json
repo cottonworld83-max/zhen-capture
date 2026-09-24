@@ -1,7 +1,7 @@
 {
   "id": "zhen-capture",
   "name": "Zhen Capture",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "minAppVersion": "1.5.7",
   "description": "Capture shared URLs into a configurable Vault folder without a desktop relay.",
   "author": "Zhen",
