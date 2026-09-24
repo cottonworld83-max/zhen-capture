@@ -19,7 +19,7 @@
 
 ## 0.4.0 — 2026-09-25
 
-> 发布状态：Test Vault 回归通过；GitHub `main` 与 `0.4.0` tag 已推送；Mac 正式 Vault 已更新。GitHub Release assets 与 Android / iPhone 真机验证待完成。
+> 发布状态：Test Vault 回归通过；GitHub `main`、`0.4.0` tag 与 Release assets 已发布；Mac 正式 Vault 已更新。Android / iPhone 真机验证待完成。
 
 ### 一眼看懂
 
@@ -31,7 +31,7 @@
 | 入库 | content_type / 视频模板 | 新增内容类型并统一视频 Markdown 结构 |
 | 整理 | status | 新剪藏默认 `待整理` |
 | 验证 | 真实链接回归 | 抖音与 X Article 真实样本通过 |
-| 发布 | 0.4.0 | main/tag 已推送，Mac 正式 Vault 已更新；Release assets 与手机真机验证待完成 |
+| 发布 | 0.4.0 | main/tag/Release assets 已发布，Mac 正式 Vault 已更新；手机真机验证待完成 |
 
 ### 阶段：路由
 
@@ -71,4 +71,5 @@
 ### 阶段：发布
 
 - **标签：0.4.0**：发布包已生成，GitHub `main` 与 `0.4.0` tag 已推送，Mac 正式 Vault 已从 `0.3.1` 更新到 `0.4.0`，且 `data.json` 配置未变化。
-- **标签：待完成**：当前环境没有 GitHub CLI，因此 GitHub Release assets 尚未创建；Android / iPhone 各完成一次真机剪藏后，本版本闭环。
+- **标签：GitHub Release**：现有自动发布工作流已成功创建 `0.4.0` prerelease，`main.js`、`manifest.json`、`versions.json` 等资产上传完成。
+- **标签：待完成**：Android / iPhone 各完成一次真机剪藏后，本版本闭环。
